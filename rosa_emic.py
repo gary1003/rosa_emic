@@ -87,6 +87,11 @@ class DynamoDBChecker:
                 df = df[~df['案件編號'].isin(df_db['案件編號'])]
                 self.upload_data(df)
                 print('data uploaded')
+                # inform user with line message
+                line_bot_api.reply_message(
+                    item['reply_token'],
+                    TextSendMessage(text=f'EMIC災情資料更新\n{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n新增{len(df)}筆資料')
+                )
                 self.save_data(df)
                 download = True
             if '開設等級' in msg or 'status' in msg:
