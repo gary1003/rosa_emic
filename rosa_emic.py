@@ -9,6 +9,12 @@ from linebot import LineBotApi
 from linebot.models import TextSendMessage
 from datetime import datetime
 import sys
+# keep last 200 lines of log
+with open(os.path.join(os.path.dirname(__file__), 'log.txt'), 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+with open(os.path.join(os.path.dirname(__file__), 'log.txt'), 'w', encoding='utf-8') as f:
+    f.writelines(lines[-200:])
+
 # redirect stdout to file
 sys.stdout = open(os.path.join(os.path.dirname(__file__), 'log.txt'), 'a', encoding='utf-8')
 sys.stderr = open(os.path.join(os.path.dirname(__file__), 'log.txt'), 'a', encoding='utf-8')
@@ -67,7 +73,7 @@ class DynamoDBChecker:
         download = False
         for item in items:
             msg = item['original_message'].lower()
-            if 'emic' in msg and not download:
+            if '.emic' in msg and not download and '.update' in msg:
                 crawler = CrawlerEMIC(debug=False)
                 print('emic found in ', item['UUID'])
                 crawler.login()
@@ -83,7 +89,7 @@ class DynamoDBChecker:
                 print('data uploaded')
                 self.save_data(df)
                 download = True
-            if '開設等級' in msg:
+            if '開設等級' in msg or '.status' in msg:
                 print('開設等級 found in ', item['UUID'])
                 crawler = CrawlerEMIC(debug=False)
                 crawler.login()
@@ -119,7 +125,7 @@ class DynamoDBChecker:
         #     df_db = pd.DataFrame(columns=['#','案件編號','發生時間/地點','災情類別','災情描述','權責單位','孤島狀態','通報來源'])
         # df = df[~df['案件編號'].isin(df_db['案件編號'])]
         print(f'uploading {len(df)} new items')
-        table = self.dynamodb.Table('data_dmm_to_rosa')
+        table = self.dynamodb.Table('data_emic')
         
         for _, row in df.iterrows():
             data = {
