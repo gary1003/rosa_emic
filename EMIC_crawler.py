@@ -213,7 +213,7 @@ class CrawlerEMIC:
             # number of rows
             # wait until n_rows is not empty
             while True:
-                n_rows = self.driver.find_elements('xpath', '/html/body/div[1]/main/div[4]/div/div[9]/div/div/div/div[2]/div/div[2]/div[2]/div[4]/div[1]/span/div/div[2]')
+                n_rows = self.driver.find_elements('xpath', '/html/body/div[1]/main/div[4]/div/div[9]/div/div/div/div[2]/div/div[2]/div[2]/div[1]/div/span/div/div[2]')
                 if n_rows[0].text != '':
                     break
             n_rows = int(n_rows[0].text[2:-2])
