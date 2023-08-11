@@ -73,7 +73,7 @@ class DynamoDBChecker:
         download = False
         for item in items:
             msg = item['original_message'].lower()
-            if '.emic' in msg and not download and '.update' in msg:
+            if '.emic' in msg and not download and 'update' in msg:
                 crawler = CrawlerEMIC(debug=False)
                 print('emic found in ', item['UUID'])
                 crawler.login()
@@ -89,7 +89,7 @@ class DynamoDBChecker:
                 print('data uploaded')
                 self.save_data(df)
                 download = True
-            if '開設等級' in msg or '.status' in msg:
+            if '開設等級' in msg or 'status' in msg:
                 print('開設等級 found in ', item['UUID'])
                 crawler = CrawlerEMIC(debug=False)
                 crawler.login()
