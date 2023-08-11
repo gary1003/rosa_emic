@@ -40,7 +40,7 @@ class DynamoDBChecker:
         if os.path.exists(last_update_file):
             with open(last_update_file, 'r') as f:
                 last_update = int(f.read())
-            print('last_update:', last_update)
+            # print('last_update:', last_update)
             return last_update
         else:
             # return 0 and create ./last_update.txt
@@ -57,7 +57,7 @@ class DynamoDBChecker:
     def check_and_update(self):
         self.last_update = self.get_last_update()
         # get items with timestamp > last_update
-        print('checking table:', self.table_name)
+        #print('checking table:', self.table_name)
         response = self.table.scan(
             FilterExpression=boto3.dynamodb.conditions.Attr('timestamp').gt(self.last_update)
         )
