@@ -211,7 +211,11 @@ class CrawlerEMIC:
             # wait for the loading element disappear
 
             # number of rows
-            n_rows = self.driver.find_elements('xpath', '/html/body/div[1]/main/div[4]/div/div[9]/div/div/div/div[2]/div/div[2]/div[2]/div[4]/div[1]/span/div/div[2]')
+            # wait until n_rows is not empty
+            while True:
+                n_rows = self.driver.find_elements('xpath', '/html/body/div[1]/main/div[4]/div/div[9]/div/div/div/div[2]/div/div[2]/div[2]/div[4]/div[1]/span/div/div[2]')
+                if n_rows[0].text != '':
+                    break
             n_rows = int(n_rows[0].text[2:-2])
             print('共有' + str(n_rows) + '筆資料')
             df = pd.DataFrame(columns=['#','案件編號','發生時間/地點','災情類別','災情描述','權責單位','孤島狀態','通報來源'])
