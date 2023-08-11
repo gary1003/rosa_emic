@@ -1,35 +1,3 @@
-found 0 new items
-2023-08-11 14:54:22
-found 0 new items
-2023-08-11 14:54:42
-found 1 new items
-last_update updated: 1691737576241
-2023-08-11 14:55:02
-found 0 new items
-2023-08-11 14:55:22
-found 0 new items
-2023-08-11 14:55:42
-found 1 new items
-last_update updated: 1691737634687
-2023-08-11 14:56:02
-found 0 new items
-2023-08-11 14:56:22
-found 0 new items
-2023-08-11 14:56:42
-found 0 new items
-2023-08-11 14:57:02
-found 0 new items
-2023-08-11 14:57:22
-found 0 new items
-2023-08-11 14:57:42
-found 1 new items
-last_update updated: 1691737755676
-2023-08-11 14:58:02
-found 0 new items
-2023-08-11 14:58:22
-found 1 new items
-last_update updated: 1691737795509
-emic found in  f5d3bcff-dee9-42b9-9620-bd8651a3b623
 Captcha recognized: xynr
 Login success
 共有0筆資料
@@ -200,3 +168,54 @@ found 0 new items
 found 0 new items
 2023-08-11 15:24:42
 found 0 new items
+2023-08-11 15:25:02
+found 0 new items
+2023-08-11 15:25:22
+found 0 new items
+2023-08-11 15:25:42
+found 0 new items
+2023-08-11 15:26:02
+found 0 new items
+2023-08-11 15:26:22
+found 0 new items
+2023-08-11 15:26:42
+found 0 new items
+2023-08-11 15:27:02
+found 1 new items
+last_update updated: 1691739512803
+2023-08-11 15:27:22
+found 0 new items
+2023-08-11 15:27:42
+found 0 new items
+2023-08-11 15:28:02
+found 0 new items
+2023-08-11 15:28:22
+found 1 new items
+last_update updated: 1691739592356
+2023-08-11 15:28:42
+found 0 new items
+2023-08-11 15:29:02
+found 0 new items
+2023-08-11 15:29:22
+found 0 new items
+2023-08-11 15:29:42
+found 1 new items
+last_update updated: 1691739678559
+開設等級 found in  a78a417b-a87a-4c5e-92de-e165b6a5ce8d
+Captcha recognized: 3hfv
+Login success
+level: {'name': '卡努颱風中央災害應變中心3級開設', 'level': '3', 'tot': '1,298', 'dead': '0', 'hurt': '0', 'missing': '0', 'leave': '134', 'shelter': '53'}
+Traceback (most recent call last):
+  File "/home/laluna/summer2023/rosa_emic.py", line 150, in <module>
+    checker.check_and_update()
+  File "/home/laluna/summer2023/rosa_emic.py", line 104, in check_and_update
+    line_bot_api.reply_message(
+  File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/deprecated/classic.py", line 285, in wrapper_function
+    return wrapped_(*args_, **kwargs_)
+  File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/linebot/api.py", line 123, in reply_message
+    self._post(
+  File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/linebot/api.py", line 2116, in _post
+    self.__check_error(response)
+  File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/linebot/api.py", line 2152, in __check_error
+    raise LineBotApiError(
+linebot.exceptions.LineBotApiError: LineBotApiError: status_code=400, request_id=4d2fa224-8aa3-469e-9298-e4e25a684612, error_response={"details": [], "message": "Invalid reply token"}, headers={'Server': 'legy', 'Content-Type': 'application/json', 'x-content-type-options': 'nosniff', 'x-frame-options': 'DENY', 'x-line-request-id': '4d2fa224-8aa3-469e-9298-e4e25a684612', 'x-xss-protection': '1; mode=block', 'Content-Length': '33', 'Expires': 'Fri, 11 Aug 2023 07:41:42 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store', 'Pragma': 'no-cache', 'Date': 'Fri, 11 Aug 2023 07:41:42 GMT', 'Connection': 'close'}
