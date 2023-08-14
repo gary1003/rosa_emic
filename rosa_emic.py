@@ -6,7 +6,7 @@ import sqlite3
 from uuid import uuid4
 from dotenv import load_dotenv
 from linebot import LineBotApi
-from linebot.models import TextSendMessage
+from linebot.models import TextSendMessage, QuickReply, QuickReplyButton, MessageAction
 from datetime import datetime
 import sys
 # keep last 200 lines of log
@@ -90,7 +90,7 @@ class DynamoDBChecker:
                 # inform user with line message
                 line_bot_api.reply_message(
                     item['reply_token'],
-                    TextSendMessage(text=f'EMIC災情資料更新\n{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n新增{len(df)}筆資料')
+                    TextSendMessage(text=f'EMIC災情資料更新\n{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n新增{len(df)}筆資料', quick_reply=get_quick_reply())
                 )
                 self.save_data(df)
                 download = True
@@ -103,7 +103,7 @@ class DynamoDBChecker:
                 # reply to line
                 line_bot_api.reply_message(
                     item['reply_token'],
-                    TextSendMessage(text=f'{data["name"]}\n總災情數:{data["tot"]}\n死亡人數:{data["dead"]}\n輕重傷人數:{data["hurt"]}\n失蹤人數:{data["missing"]}\n累計撤離人數:{data["leave"]}\n累計收容人數:{data["shelter"]}')
+                    TextSendMessage(text=f'{data["name"]}\n總災情數:{data["tot"]}\n死亡人數:{data["dead"]}\n輕重傷人數:{data["hurt"]}\n失蹤人數:{data["missing"]}\n累計撤離人數:{data["leave"]}\n累計收容人數:{data["shelter"]}', quick_reply=get_quick_reply())
                 )
 
                 
@@ -143,6 +143,15 @@ class DynamoDBChecker:
                 'case_type': row['災情類別'],
             }
             table.put_item(Item=data)
+
+def get_quick_reply():
+    quick_reply = QuickReply(items=[
+        QuickReplyButton(action=MessageAction(label="幫助", text="rosa .help")),
+        QuickReplyButton(action=MessageAction(label="開設等級", text="rosa .emic status")),
+        QuickReplyButton(action=MessageAction(label="更新emic資訊", text="rosa .emic update")),
+        QuickReplyButton(action=MessageAction(label="最近地震推估損失", text="rosa .eq")),
+        ])
+    return quick_reply
 
 if __name__ == '__main__':
     print(datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'))
