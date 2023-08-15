@@ -149,7 +149,8 @@ def get_quick_reply():
         QuickReplyButton(action=MessageAction(label="幫助", text="rosa .help")),
         QuickReplyButton(action=MessageAction(label="開設等級", text="rosa .emic status")),
         QuickReplyButton(action=MessageAction(label="更新emic資訊", text="rosa .emic update")),
-        QuickReplyButton(action=MessageAction(label="最近地震推估損失", text="rosa .eq")),
+        QuickReplyButton(action=MessageAction(label="最近早期地震損失推估", text="rosa .teles")),
+        QuickReplyButton(action=MessageAction(label="綁定通知", text="rosa .bindings")),
         ])
     return quick_reply
 
