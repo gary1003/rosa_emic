@@ -2,8 +2,8 @@
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052002Z is still later than 20230915T051742Z (20230915T050242Z + 15 min.)
-2023-09-15 13:20:22
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052502Z is still later than 20230915T052242Z (20230915T050742Z + 15 min.)
+2023-09-15 13:25:22
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -17,8 +17,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052022Z is still later than 20230915T051802Z (20230915T050302Z + 15 min.)
-2023-09-15 13:20:42
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052522Z is still later than 20230915T052302Z (20230915T050802Z + 15 min.)
+2023-09-15 13:25:42
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -32,8 +32,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052042Z is still later than 20230915T051822Z (20230915T050322Z + 15 min.)
-2023-09-15 13:21:02
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052542Z is still later than 20230915T052322Z (20230915T050822Z + 15 min.)
+2023-09-15 13:26:02
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -47,8 +47,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052102Z is still later than 20230915T051842Z (20230915T050342Z + 15 min.)
-2023-09-15 13:21:22
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052603Z is still later than 20230915T052342Z (20230915T050842Z + 15 min.)
+2023-09-15 13:26:22
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -62,8 +62,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052122Z is still later than 20230915T051902Z (20230915T050402Z + 15 min.)
-2023-09-15 13:21:42
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052622Z is still later than 20230915T052402Z (20230915T050902Z + 15 min.)
+2023-09-15 13:26:42
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -77,8 +77,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052142Z is still later than 20230915T051922Z (20230915T050422Z + 15 min.)
-2023-09-15 13:22:02
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052642Z is still later than 20230915T052422Z (20230915T050922Z + 15 min.)
+2023-09-15 13:27:02
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -92,8 +92,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052202Z is still later than 20230915T051942Z (20230915T050442Z + 15 min.)
-2023-09-15 13:22:22
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052702Z is still later than 20230915T052442Z (20230915T050942Z + 15 min.)
+2023-09-15 13:27:22
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -107,8 +107,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052222Z is still later than 20230915T052002Z (20230915T050502Z + 15 min.)
-2023-09-15 13:22:42
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052722Z is still later than 20230915T052502Z (20230915T051002Z + 15 min.)
+2023-09-15 13:27:42
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -122,8 +122,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052242Z is still later than 20230915T052022Z (20230915T050522Z + 15 min.)
-2023-09-15 13:23:02
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052742Z is still later than 20230915T052522Z (20230915T051022Z + 15 min.)
+2023-09-15 13:28:03
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -137,8 +137,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052303Z is still later than 20230915T052042Z (20230915T050542Z + 15 min.)
-2023-09-15 13:23:23
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052803Z is still later than 20230915T052542Z (20230915T051042Z + 15 min.)
+2023-09-15 13:28:23
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -152,8 +152,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052323Z is still later than 20230915T052103Z (20230915T050603Z + 15 min.)
-2023-09-15 13:23:42
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052823Z is still later than 20230915T052602Z (20230915T051102Z + 15 min.)
+2023-09-15 13:28:43
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -167,8 +167,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052343Z is still later than 20230915T052122Z (20230915T050622Z + 15 min.)
-2023-09-15 13:24:02
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052843Z is still later than 20230915T052623Z (20230915T051123Z + 15 min.)
+2023-09-15 13:29:03
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -182,8 +182,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052402Z is still later than 20230915T052142Z (20230915T050642Z + 15 min.)
-2023-09-15 13:24:22
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052903Z is still later than 20230915T052643Z (20230915T051143Z + 15 min.)
+2023-09-15 13:29:23
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -197,8 +197,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052422Z is still later than 20230915T052201Z (20230915T050701Z + 15 min.)
-2023-09-15 13:24:42
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052923Z is still later than 20230915T052703Z (20230915T051203Z + 15 min.)
+2023-09-15 13:29:43
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -212,4 +212,4 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052442Z is still later than 20230915T052222Z (20230915T050722Z + 15 min.)
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20230915T052943Z is still later than 20230915T052723Z (20230915T051223Z + 15 min.)
