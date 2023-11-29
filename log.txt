@@ -2,8 +2,8 @@
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
-2023-11-29 17:18:17
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100503Z is still later than 20231129T100106Z (20231129T094606Z + 15 min.)
+2023-11-29 18:05:22
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -17,8 +17,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
-2023-11-29 17:22:37
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100522Z is still later than 20231129T100125Z (20231129T094625Z + 15 min.)
+2023-11-29 18:05:42
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -32,8 +32,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
-2023-11-29 17:23:17
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100542Z is still later than 20231129T100145Z (20231129T094645Z + 15 min.)
+2023-11-29 18:06:02
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -47,8 +47,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
-2023-11-29 17:25:37
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100602Z is still later than 20231129T100205Z (20231129T094705Z + 15 min.)
+2023-11-29 18:06:22
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -62,8 +62,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
-2023-11-29 17:26:37
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100622Z is still later than 20231129T100225Z (20231129T094725Z + 15 min.)
+2023-11-29 18:06:42
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -77,8 +77,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
-2023-11-29 17:27:37
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100642Z is still later than 20231129T100245Z (20231129T094745Z + 15 min.)
+2023-11-29 18:07:02
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -92,8 +92,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
-2023-11-29 17:29:17
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100702Z is still later than 20231129T100305Z (20231129T094805Z + 15 min.)
+2023-11-29 18:07:22
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -107,8 +107,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
-2023-11-29 17:31:17
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100722Z is still later than 20231129T100325Z (20231129T094825Z + 15 min.)
+2023-11-29 18:07:42
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -122,8 +122,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
-2023-11-29 17:32:57
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100742Z is still later than 20231129T100345Z (20231129T094845Z + 15 min.)
+2023-11-29 18:08:02
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -137,8 +137,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
-2023-11-29 17:34:16
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100802Z is still later than 20231129T100405Z (20231129T094905Z + 15 min.)
+2023-11-29 18:08:22
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -152,8 +152,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
-2023-11-29 17:37:57
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100822Z is still later than 20231129T100425Z (20231129T094925Z + 15 min.)
+2023-11-29 18:08:42
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -167,8 +167,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
-2023-11-29 17:38:17
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100842Z is still later than 20231129T100445Z (20231129T094945Z + 15 min.)
+2023-11-29 18:09:02
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -182,8 +182,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
-2023-11-29 17:39:57
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100902Z is still later than 20231129T100505Z (20231129T095005Z + 15 min.)
+2023-11-29 18:09:22
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -197,8 +197,8 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
-2023-11-29 17:40:37
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100922Z is still later than 20231129T100525Z (20231129T095025Z + 15 min.)
+2023-11-29 18:09:42
 Traceback (most recent call last):
   File "/home/laluna/summer2023/rosa_emic.py", line 160, in <module>
     checker.check_and_update()
@@ -212,4 +212,4 @@ Traceback (most recent call last):
     return self._make_api_call(operation_name, kwargs)
   File "/home/laluna/Desktop/py395e/lib/python3.9/site-packages/botocore/client.py", line 980, in _make_api_call
     raise error_class(parsed_response, operation_name)
-botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the Scan operation: The security token included in the request is invalid.
+botocore.exceptions.ClientError: An error occurred (InvalidSignatureException) when calling the Scan operation: Signature not yet current: 20231129T100942Z is still later than 20231129T100545Z (20231129T095045Z + 15 min.)
